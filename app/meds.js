@@ -26,7 +26,7 @@ import {
   Divider,
 } from 'native-base';
 
-const STORE_KEY = 'monomon_secret_meds';
+const STORE_KEY = 'secret_meds';
 const DAYS = [ 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday' ];
 const DAYS_ITEMS = [...DAYS].map((item, idx) => ({ id: idx, name: item, disabled: true }));
 DAYS_ITEMS.unshift({ name: 'Everyday', id: -1, disabled: false });
